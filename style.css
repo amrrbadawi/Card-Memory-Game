@@ -1,0 +1,76 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background-color: #DB2763;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    /* display: none; */
+}
+
+.titleDiv {
+    background-color: #DB2763;
+    padding: 20px 0 0 0;
+    width: 100%;
+    height: 10%;
+}
+
+.container {
+    display: inline-flex;
+    background-color: #DB2763;
+    padding: 20px;
+    height: 90%;
+    width: 100%;
+}
+
+.sideMenu {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.card {
+    width: 60px;
+    margin: 5px 10px;
+}
+
+.mainDivClass {
+    width: 80%;
+}
+
+.activePlayer {
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #B0DB43;
+}
+
+.player {
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn {
+    margin: 10px 0;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    background-color: #C492B1;
+    border-radius: 5px;
+    padding: 5px;
+}
